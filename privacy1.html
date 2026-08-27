@@ -1,74 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Privacy Policy · BabyAlert Pro</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Chefino</title>
+<meta name="description" content="Privacy Policy for the Chefino iOS app.">
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-    max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
-    line-height: 1.65; color: #1a1a1a; background: #fafafa;
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5a5a5a;
+    --accent: #e8622c; --line: #e5e5e5; --card: #fafafa;
   }
   @media (prefers-color-scheme: dark) {
-    body { background: #0f0f12; color: #eaeaea; }
-    a { color: #8ab4ff; }
+    :root { --bg: #121212; --fg: #ececec; --muted: #a0a0a0;
+            --accent: #ff7a45; --line: #2a2a2a; --card: #1c1c1c; }
   }
-  h1 { font-size: 1.9rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; }
-  .meta { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
-  ul { padding-left: 1.2rem; }
-  code { background: rgba(127,127,127,0.15); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
-  hr { border: none; border-top: 1px solid rgba(127,127,127,0.25); margin: 2.5rem 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 20px 80px;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { padding: 56px 0 28px; border-bottom: 1px solid var(--line); margin-bottom: 36px; }
+  h1 { font-size: 2rem; margin: 0 0 10px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.2rem; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 26px 0 8px; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 22px; }
+  li { margin: 7px 0; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 18px 20px; margin: 24px 0;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px; padding-top: 24px;
+    border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Privacy Policy</h1>
-<p class="meta">BabyAlert Pro · Last updated: May 23, 2026</p>
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Chefino &middot; Last updated: 27 August 2026</p>
+</header>
 
-<p>BabyAlert Pro ("the App") cares about your privacy. This policy explains what data is processed when you use the App, why it's processed, and what rights you have.</p>
+<div class="card">
+  <p><strong>Short version:</strong> Chefino does not collect, transmit, or sell your
+  personal data. Everything you enter — your profile, meal log, weekly plan, shopping
+  list, and recipe notes — is stored only on your device. There is no account, no login,
+  and no analytics or advertising tracking in this app.</p>
+</div>
 
-<h2>1. Data We Collect</h2>
+<h2>1. Who we are</h2>
+<p>Chefino ("the app", "we", "us") is an iOS application that provides athlete-focused
+meal recipes, nutrition planning, and cooking guidance. This policy explains what
+happens to information when you use the app.</p>
+<p>If you have any question about this policy, contact us at
+<a href="mailto:ultrest12@gmail.com">ultrest12@gmail.com</a>.</p>
+
+<h2>2. Information stored on your device</h2>
+<p>Chefino works without an account. The information you provide is saved locally on
+your iPhone or iPad using Apple's standard on-device storage, and is not uploaded to
+us or to any server we control. This includes:</p>
 <ul>
-  <li><strong>Microphone audio:</strong> Used only for on-device, real-time cry detection. Audio is never recorded, sent to a server, stored, or shared with third parties.</li>
-  <li><strong>Local network data:</strong> The connection between the parent and baby devices is established directly over the same Wi-Fi network. No audio is transmitted to a server over the internet.</li>
-  <li><strong>Subscription information:</strong> Purchases are processed through the Apple App Store and RevenueCat. An anonymous user identifier is kept to verify your subscription status. We do not collect your name, email address, or payment details.</li>
-  <li><strong>Family code:</strong> The code you generate to share premium access is stored only on your device.</li>
+  <li>Your athlete profile: goal, training window, calorie and macronutrient targets,
+      workouts per week, household size, cooking skill level, and available cooking time</li>
+  <li>Dietary preferences you select, such as vegetarian, gluten-free, or lactose-free</li>
+  <li>Your meal log, weekly meal plan, and marked training days</li>
+  <li>Your shopping list, pantry items, and saved recipe notes or ratings</li>
 </ul>
+<p>We cannot see this information. It stays on your device, and it is included in your
+device backups only if you have enabled iCloud or local backups in iOS settings — those
+backups are controlled by Apple and by your own settings, not by us.</p>
 
-<h2>2. How We Use Data</h2>
+<h2>3. Information we do not collect</h2>
+<p>Chefino does <strong>not</strong> request, access, or collect:</p>
 <ul>
-  <li>Analyzing sound on-device to detect and alert you to crying.</li>
-  <li>Pairing the parent and baby devices on the local network.</li>
-  <li>Verifying your active subscription and unlocking premium features.</li>
+  <li>Your name, email address, phone number, or any account credentials</li>
+  <li>Your location</li>
+  <li>Health or fitness data from Apple Health</li>
+  <li>Your contacts, photos, camera, or microphone</li>
+  <li>Advertising identifiers, and we do not track you across other apps or websites</li>
 </ul>
+<p>The app contains no third-party advertising and no analytics or behavioural
+tracking software.</p>
 
-<h2>3. Third-Party Services</h2>
+<h2>4. Purchases and subscriptions</h2>
+<p>Chefino offers an optional premium subscription. Payments are processed entirely by
+Apple through the App Store — we never see or handle your payment card details.</p>
+<p>To determine whether your subscription is active, the app uses RevenueCat, a
+subscription management service. RevenueCat receives a randomly generated, anonymous
+identifier together with purchase and device information (such as transaction
+receipts, subscription status, device model, and operating system version). This data
+is used only to validate and restore purchases. It is not linked to your name or to
+any personal profile.</p>
+<table>
+  <tr><th>Service</th><th>Purpose</th><th>Their policy</th></tr>
+  <tr>
+    <td>Apple App Store</td>
+    <td>Processing payments, subscriptions, and refunds</td>
+    <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></td>
+  </tr>
+  <tr>
+    <td>RevenueCat</td>
+    <td>Validating and restoring subscription status</td>
+    <td><a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">revenuecat.com/privacy</a></td>
+  </tr>
+</table>
+
+<h2>5. How your information is used</h2>
+<p>The information stored on your device is used solely to operate the features you
+asked for: personalising recipe suggestions to your goals and dietary preferences,
+calculating portions, building your weekly plan and shopping list, and remembering the
+recipes you have cooked. It is never used for advertising or profiling, and it is never
+sold or shared.</p>
+
+<h2>6. Deleting your data</h2>
+<p>Because your data lives on your device, you are in full control of it:</p>
 <ul>
-  <li><strong>Apple App Store:</strong> Purchase and subscription management. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
-  <li><strong>RevenueCat:</strong> Subscription status verification. <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a></li>
+  <li>You can clear individual entries — meals, plans, list items, notes — inside the app at any time.</li>
+  <li>Deleting the app from your device removes all data Chefino has stored locally.</li>
 </ul>
-<p>We do not use any advertising network, analytics, or tracking SDKs.</p>
+<p>To ask about data held by our subscription provider, or to request its deletion,
+email <a href="mailto:ultrest12@gmail.com">ultrest12@gmail.com</a> and we will help you
+with the request.</p>
 
-<h2>4. Data Retention</h2>
-<p>Audio data is never stored. Your anonymous subscription identifier is kept with RevenueCat for as long as your subscription remains active. If you delete the App, all local data on your device (family code, trial information, settings) is deleted as well.</p>
+<h2>7. Your rights</h2>
+<p>Depending on where you live, you may have rights under laws such as the GDPR
+(European Union / United Kingdom) or the CCPA (California) to access, correct, delete,
+or restrict the processing of your personal data, and to object to processing or lodge a
+complaint with a supervisory authority.</p>
+<p>Since Chefino stores your information locally and does not maintain user accounts,
+most of these rights are exercised directly on your device. For anything relating to
+purchase data, contact us at
+<a href="mailto:ultrest12@gmail.com">ultrest12@gmail.com</a>. We do not sell personal
+information, and we have never done so.</p>
 
-<h2>5. Children's Privacy</h2>
-<p>The App does not knowingly collect data from children under 13. The microphone only analyzes ambient sound intensity on-device; audio is never recorded or transmitted.</p>
+<h2>8. Children's privacy</h2>
+<p>Chefino is not directed at children under 13, and we do not knowingly collect
+personal information from them. If you believe a child has provided us with personal
+information, please contact us so that we can address it.</p>
 
-<h2>6. Your Rights</h2>
-<p>Under GDPR and other applicable data protection laws, you have the right to access, correct, and delete your data. You can reach us at the address below to make such a request.</p>
+<h2>9. Health and nutrition disclaimer</h2>
+<p>Chefino provides general recipes and nutrition information for informational
+purposes only. It is not medical or dietary advice and is not a substitute for
+consultation with a qualified healthcare professional or registered dietitian. Always
+check recipe ingredients yourself if you have allergies or specific medical needs.</p>
 
-<h2>7. Changes to This Policy</h2>
-<p>This policy may be updated from time to time. Material changes will be announced within the App. The effective date is always shown at the top of this page.</p>
+<h2>10. Changes to this policy</h2>
+<p>We may update this policy if the app changes. When we do, we will revise the "Last
+updated" date at the top of this page. Significant changes will also be noted in the
+app's release notes.</p>
 
-<h2>8. Contact</h2>
-<p>Questions? Reach us at: <a href="mailto:ultrest12@gmail.com">ultrest12@gmail.com</a></p>
+<h2>11. Contact</h2>
+<p>Questions, requests, or concerns about privacy:
+<a href="mailto:ultrest12@gmail.com">ultrest12@gmail.com</a></p>
 
-<hr />
-<p style="font-size: 0.85rem; color: #888;">© 2026 BabyAlert Pro · All rights reserved.</p>
+<footer>
+  <p>&copy; 2026 Chefino. All rights reserved.</p>
+</footer>
 
+</div>
 </body>
 </html>
